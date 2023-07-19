@@ -1,0 +1,57 @@
+.main {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 16px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .body {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 16px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .dayHeader {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .calendarRow {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .calendarDay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  
+  .calendarDay.today {
+    background-color: #f1f1f1;
+  }
+  
+  .calendarDay.otherMonth {
+    color: #ccc;
+  }
+  
+  .dayNumber {
+    font-weight: bold;
+  }
+  

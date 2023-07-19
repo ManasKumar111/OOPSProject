@@ -1,0 +1,17 @@
+.navbar {
+    padding: 1.7vh 0;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: yellow;
+    background: linear-gradient(rgba(50,50,50,1), rgba(150,150,150,0));
+}
+ 
+.navbarBrand {
+    margin-left: 5vw;
+}
+
+.item {
+    margin-right: 5vw;    
+}
